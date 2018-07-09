@@ -1,0 +1,64 @@
+
+.container{
+    min-height: 100vh;
+}
+.hover-container{
+    margin-top:20px;
+    border-radius:10px;
+    width: 900px;
+    height: 300px;
+    box-shadow: 0px 10px 16px black;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+    padding-top: 30px;
+    vertical-align: middle;
+}
+body{
+    margin:0;
+    background-color: rgba(126, 133, 130, 0.486);
+}
+.clickers{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: grey;
+
+}
+.clicks{
+    display:flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin:auto;
+
+}
+.click{
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0px 5px 10px black;
+    height:60px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    position:relative;
+
+}
+div{
+    text-align: left;
+    font-weight: bold;
+}
+.click .close{
+    position: absolute;
+    top:2px;
+    right:4px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-family: helvetica;
+
+
+}
+button{border-radius:7px;
+background-color: rgba(140, 216, 191, 0.411) }
